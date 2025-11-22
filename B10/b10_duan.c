@@ -51,6 +51,6 @@ int main() {
         printf("%.2f ", scores[i]);
     }
     printf("\n"); 
-    
+// Done
     return 0;
 }
