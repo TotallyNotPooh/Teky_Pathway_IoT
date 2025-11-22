@@ -7,7 +7,7 @@ float scores_above_avg = 0;
 
 int main() {
     float total = 0;
-//tt 1, 2, 3, 4
+//Nhap diem
     for (int i=0; i<num_students; i++) {
         printf("Nhap diem: ");
         scanf("%f", &scores[i]);
@@ -16,7 +16,7 @@ int main() {
 //    printf("Total: %.2f\n", total);
     float avg = total / num_students;
     printf("Average: %.2f\n", avg);
-//max    
+//max, min 
     float min = scores[0];
     float max = scores[0];
     for (int i=1; i<num_students; i++) {
