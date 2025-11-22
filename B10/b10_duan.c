@@ -46,7 +46,7 @@ int main() {
         }
     }
 // In kết quả sau khi sắp xếp
-    printf("\nDiem sau khi sap xep tang dan:\n");
+    printf("Diem sau khi sap xep tang dan:\n");
     for (int i=0; i<num_students; i++) {
         printf("%.2f ", scores[i]);
     }
